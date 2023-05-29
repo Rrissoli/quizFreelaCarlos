@@ -1,0 +1,230 @@
+{
+    "perguntas": [
+      {
+        "pergunta": "Sou uma pessoa bem organizada na vida pessoal e profissional e sigo minha agenda sempre!",
+        "respostas": [
+          {
+            "resposta": "Sim, sou 100% organizado",
+            "pontuacao": 9
+          },
+          {
+            "resposta": "Sou organizado, mas ainda tenho dificuldades na gestão do tempo.",
+            "pontuacao": 7
+          },
+          {
+            "resposta": "Tento ao máximo, mas não consigo fazer tudo que preciso.",
+            "pontuacao": 5
+          },
+          {
+            "resposta": "Eu tenho dificuldade em criar minha agenda",
+            "pontuacao": 2
+          },
+          {
+            "resposta": "Sou completamente desorganizado e faço as coisas conforme aparecem.",
+            "pontuacao": 0
+          }
+        ]
+      },
+      {
+        "pergunta": "Eu sou uma pessoa focada e constante nos negócios e não me deixo distrair no dia a dia por coisas que tomam meu tempo sem me trazer resultados.",
+        "respostas": [
+          {
+            "resposta": "Sim, sempre priorizo aquilo que é mais importante.",
+            "pontuacao": 9
+          },
+          {
+            "resposta": "Apesar de cumprir minha agenda, sinto que algo ainda me rouba tempo.",
+            "pontuacao": 7
+          },
+          {
+            "resposta": "Tenho facilidade de me distrair, por isso as coisas acabam ficando sempre para cima da hora.",
+            "pontuacao": 5
+          },
+          {
+            "resposta": "Eu fico nervoso (ou ansioso) com o tanto de tarefas a fazer e isso acaba tirando mais ainda meu foco. Alguns dias eu simplesmente não faço nada.",
+            "pontuacao": 2
+          },
+          {
+            "resposta": "Além de não conseguir cumprir tudo que preciso, sinto que é muito fácil me distrair com o celular, me falta foco e clareza.",
+            "pontuacao": 0
+          }
+        ]
+      },
+      {
+        "pergunta": "Me sinto totalmente disposto para crescer ainda mais a minha empresa e tenho consciência de que essa escalada vai me exigir muita energia.",
+        "respostas": [
+          {
+            "resposta": "Sim, estou preparado.",
+            "pontuacao": 9
+          },
+          {
+            "resposta": "Me sinto um pouco cansado, mas quero muito isso.",
+            "pontuacao": 7
+          },
+          {
+            "resposta": "Esse é o meu sonho, mas sinto cansado.",
+            "pontuacao": 5
+          },
+          {
+            "resposta": "Me sinto inseguro e com medo de não conseguir.",
+            "pontuacao": 2
+          },
+          {
+            "resposta": "Eu não estou disposto.",
+            "pontuacao": 0
+          }
+        ]
+      },
+      {
+        "pergunta": "Busco conhecimento todos os dias, seja lendo livros, participando de cursos, workshops ou mentorias. Eu tenho consciência de que o conhecimento nunca acaba.",
+        "respostas": [
+          {
+            "resposta": "Sim, dedico no mínimo 60 minutos do meu dia aos estudos.",
+            "pontuacao": 9
+          },
+          {
+            "resposta": "Sim, eu estudo pelo menos 3x na semana.",
+            "pontuacao": 7
+          },
+          {
+            "resposta": "Eu estudo menos do que gostaria, parece que nunca tenho tempo.",
+            "pontuacao": 5
+          },
+          {
+            "resposta": "Eu não tenho esse hábito, mas sei que deveria me dedicar.",
+            "pontuacao": 2
+          },
+          {
+            "resposta": "Eu não tenho esse hábito.",
+            "pontuacao": 0
+          }
+        ]
+      },
+      {
+        "pergunta": "Minha empresa tem planejamento de marketing e de vendas e sabemos com clareza tudo que precisamos fazer para atingir nossos objetivos. Nosso Instagram é alimentado diariamente com postagens e stories e isso tem trazido bons resultados.",
+        "respostas": [
+          {
+            "resposta": "Sim, todo o conteúdo é planejado.",
+            "pontuacao": 9
+          },
+          {
+            "resposta": "O conteúdo é produzido diariamente, porém sem uma estratégia profissional.",
+            "pontuacao": 7
+          },
+          {
+            "resposta": "Tento manter o máximo de constância possível no Instagram, mas nem sempre consigo.",
+            "pontuacao": 5
+          },
+          {
+            "resposta": "Não tem estratégia profissional e os posts são em média 3 vezes na semana.",
+            "pontuacao": 2
+          },
+          {
+            "resposta": "Não estou produzindo conteúdo e não sei como produzir.",
+            "pontuacao": 0
+          }
+        ]
+      },
+      {
+        "pergunta": "Eu sou a cara do meu negócio e NÃO tenho vergonha de aparecer em vídeos e nos stories e de falar sobre a minha empresa e os meus produtos/serviços.",
+        "respostas": [
+          {
+            "resposta": "Sim, estou presente e cuidando pessoalmente do Instagram todos os dias.",
+            "pontuacao": 9
+          },
+          {
+            "resposta": "Eu não tenho vergonha, mas não sei qual conteúdo produzir, por isso apareço pouco.",
+            "pontuacao": 7
+          },
+          {
+            "resposta": "Eu quero aparecer mais, mas tenho.",
+            "pontuacao": 5
+          },
+          {
+            "resposta": "Eu sei que é importante, mas não consigo tempo para me dedicar.",
+            "pontuacao": 2
+          },
+          {
+            "resposta": "Eu não apareço.",
+            "pontuacao": 0
+          }
+        ]
+      },
+      {
+        "pergunta": "Eu entendo todas as funcionalidades do Instagram e uso todas elas (reels, posts, stories, lives) a nosso favor. Nós desenvolvemos a nossa identidade única e isso nos traz clientes alinhados com os nossos valores sempre.",
+        "respostas": [
+          {
+            "resposta": "Sim, ter uma identidade única me trouxe muitos resultados.",
+            "pontuacao": 9
+          },
+          {
+            "resposta": "Eu entendo as funcionalidades e ainda não consegui desenvolver minha identidade, mas mantenho a frequência mesmo assim.",
+            "pontuacao": 7
+          },
+          {
+            "resposta": "Não entendo todas as funcionalidades e não consegui ainda alinhas minha identidade, me sinto perdido nesse assunto.",
+            "pontuacao": 5
+          },
+          {
+            "resposta": "Eu quero criar essa comunidade com os meus clientes, mas não sei por onde começar.",
+            "pontuacao": 2
+          },
+          {
+            "resposta": "Eu não entendo muito sobre Instagram e não tenho tempo para me dedicar a isso.",
+            "pontuacao": 0
+          }
+        ]
+      },
+      {
+        "pergunta": "Eu já fiz estudos e pesquisas para conhecer mais o meu público e saber exatamente quem é o meu cliente ideal. Hoje atraímos bons clientes, que valorizam a minha marca e eu não sofro mais com clientes inconvenientes.",
+        "respostas": [
+          {
+            "resposta": "Sim, isso me traz clientes que se tornam fãs da marca.",
+            "pontuacao": 9
+          },
+          {
+            "resposta": "Tento entender quem é meu cliente ideal, mas não tenho o hábito de estudar sobre ele, sei que isso me prejudica um pouco.",
+            "pontuacao": 7
+          },
+          {
+            "resposta": "Nunca fiz levantamento exato sobre público ideal, isso acaba me trazendo clientes errados com certa frequência.",
+            "pontuacao": 5
+          },
+          {
+            "resposta": "Vendo para qualquer pessoa e tenho constantemente clientes pedindo desconto e não valorizando minha marca como eu gostaria.",
+            "pontuacao": 2
+          },
+          {
+            "resposta": "Eu estou com dificuldade de atrair clientes e nunca fiz estudos sobre meu público ideal.",
+            "pontuacao": 0
+          }
+        ]
+      },
+      {
+        "pergunta": "Tenho clareza sobre onde quero que minha empresa esteja em 3 anos e sei qual o caminho que devo seguir para alcançar esse objetivo. Por isso 2023 já está completamente planejado. Temos mês a mês a programação do que faremos tanto na área de marketing quanto na área de vendas e isso vai nos trazer ainda mais resultados.",
+        "respostas": [
+          {
+            "resposta": "Sim, nada é feito na empresa sem planejamento e metas.",
+            "pontuacao": 9
+          },
+          {
+            "resposta": "Eu sei onde quero chegar, planejo minha semana, mas não tenho planejamento a longo prazo.",
+            "pontuacao": 7
+          },
+          {
+            "resposta": "Eu apenas sigo minhas tarefas, não tenho planejamento ou metas definidas por períodos.",
+            "pontuacao": 5
+          },
+          {
+            "resposta": "Eu tenho dificuldade em definir metas e planejar ações, sempre faço tudo em cima da hora.",
+            "pontuacao": 2
+          },
+          {
+            "resposta": "Eu não tenho clareza de onde quero chegar e não faço planejamento.",
+            "pontuacao": 0
+          }
+        ]
+      }
+    ]
+  }
+  

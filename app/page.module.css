@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Poppins:wght@600&family=Work+Sans&display=swap');
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6rem;
+  min-height: 100vh;
+  background-image: url("/assets/background-quiz.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.titulo {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 54px;
+}
+
+.vermelho {
+  color: #E90101;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  max-width: 700px;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+
+}
+
+.texto {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+.button_iniciar {
+  all: unset;
+  width: 274px;
+  height: 61px;
+  text-align: center;
+
+  background: #B51515;
+  border-radius: 5px;
+}
+
+.button_saibamais {
+  all: unset;
+  width: 273px;
+  height: 61px;
+  text-align: center;
+
+  border: 2px solid #B51515;
+  border-radius: 5px;
+}
+
+.box_buttons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+@media (max-width: 600px) {
+  .main {
+    
+    padding: 3rem;
+  }
+  
+  .titulo {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  
+  .box {
+    max-width: 100%;
+  }
+  
+  .texto {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  
+  .button_iniciar,
+  .button_saibamais {
+    width: 100%;
+  }
+}
