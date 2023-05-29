@@ -5,6 +5,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  
   padding: 6rem;
   min-height: 100vh;
   background-image: url("/assets/background-quiz.png");
@@ -70,12 +71,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 40px;
 }
-@media (max-width: 600px) {
+@media (max-width: 720px) {
   .main {
     
-    padding: 3rem;
+    padding: 4rem;
   }
   
   .titulo {
