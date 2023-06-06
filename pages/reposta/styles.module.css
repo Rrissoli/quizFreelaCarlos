@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Poppins:wght@200;600&display=swap');
 .main_resposta {
   display: flex;
   flex-direction: column;
@@ -7,6 +8,84 @@
   background: #000926;
   padding: 30px 40px;
   gap: 30px;
+}
+
+.boxPersonalizado {
+  border-top: solid 1px #fff;
+  width: 1000px;
+  padding-top: 30px;
+  gap: 30px;
+}
+
+.bol {
+  width: 100px;
+  height: 100px;
+  background: #E90101;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.tittle1 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 42px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #E90101;
+}
+
+.pontuacao {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 58px;
+  line-height: 87px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+.banner {
+  background: #E90101;
+  border-radius: 20px;
+  width: 338px;
+  height: 67px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 51px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+.titulo_vermelho {
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height */
+
+
+  color: #E90101;
 }
 
 .page {
