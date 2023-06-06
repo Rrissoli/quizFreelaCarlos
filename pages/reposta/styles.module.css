@@ -35,9 +35,7 @@
   font-size: 28px;
   line-height: 42px;
   /* identical to box height */
-
   text-align: center;
-
   color: #E90101;
 }
 
@@ -48,9 +46,7 @@
   font-size: 58px;
   line-height: 87px;
   /* identical to box height */
-
   text-align: center;
-
   color: #FFFFFF;
 }
 
@@ -62,29 +58,23 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
   font-size: 25px;
   line-height: 51px;
   /* identical to box height */
-
   text-align: center;
-
   color: #FFFFFF;
 }
 
 .titulo_vermelho {
-
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
   line-height: 36px;
   /* identical to box height */
-
-
   color: #E90101;
 }
 
@@ -198,80 +188,195 @@
 
 /* Responsividade */
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .page {
-    width: 90%;
-    padding-top: 100px;
+    width: 80%;
+  }
+
+  .button_back {
+    width: 150px;
+    height: 40px;
   }
 
   .pergunta {
-    font-size: 5vw;
-    line-height: 6vw;
+    font-size: 30px;
+    line-height: 32px;
+    margin-bottom: 20px;
   }
 
   .pergunta_div {
-    max-width: 90%;
+    max-width: 450px;
   }
 
   .resposta_div_squad {
-    padding: 10px;
-    border-radius: 6vw;
-    width: 80%;
-    min-height: 10vw;
+    width: 450px;
   }
 
   .respostas_div {
-    gap: 8vw;
+    gap: 20px;
+  }
+
+  .parabens,
+  .analise {
+    font-size: 24px;
+    line-height: 30px;
   }
 
   .titulo {
-    font-size: 10vw;
-    line-height: 14vw;
+    font-size: 48px;
+    line-height: 70px;
   }
 
   .paragrafo {
-    font-size: 4vw;
-    line-height: 6vw;
+    max-width: 550px;
+    font-size: 20px;
+    line-height: 30px;
   }
 
   .btn {
-    width: 80%;
-    height: 8vw;
+    width: 400px;
+    
+  }
+}
+
+@media (max-width: 768px) {
+  .page {
+    width: 90%;
+    padding-top: 150px;
+  }
+
+  .button_back {
+    width: 120px;
+    height: 36px;
+    margin-bottom: 15px;
+  }
+
+  .pergunta {
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 15px;
+  }
+
+  .pergunta_div {
+    max-width: 400px;
+  }
+
+  .resposta_div_squad {
+    width: 400px;
+  }
+
+  .respostas_div {
+    gap: 15px;
+  }
+
+  .parabens,
+  .analise {
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  .titulo {
+    font-size: 42px;
+    line-height: 64px;
+  }
+
+  .paragrafo {
+    max-width: 500px;
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  .btn {
+    width: 300px;
+    
   }
 }
 
 @media (max-width: 480px) {
+  .main_resposta {
+    padding: 20px;
+  }
+
+  .boxPersonalizado {
+    width: 100%;
+  }
+
+  .bol {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 30px;
+  }
+
+  .tittle1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .pontuacao {
+    font-size: 48px;
+    line-height: 64px;
+  }
+
+  .banner {
+    width: 250px;
+    height: 50px;
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  .titulo_vermelho {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
   .page {
-    padding-top: 50px;
+    padding-top: 120px;
+  }
+
+  .button_back {
+    width: 100px;
+    height: 30px;
+    margin-bottom: 10px;
   }
 
   .pergunta {
-    font-size: 4vw;
-    line-height: 5vw;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 10px;
+  }
+
+  .pergunta_div {
+    max-width: 300px;
   }
 
   .resposta_div_squad {
-    padding: 5px;
-    width: 90%;
-    min-height: 15vw;
+    width: 300px;
+    min-height: 40px;
   }
 
   .respostas_div {
-    gap: 10vw;
+    gap: 10px;
+  }
+
+  .parabens,
+  .analise {
+    font-size: 18px;
+    line-height: 24px;
   }
 
   .titulo {
-    font-size: 8vw;
-    line-height: 12vw;
+    font-size: 36px;
+    line-height: 56px;
   }
 
   .paragrafo {
-    font-size: 3.5vw;
-    line-height: 5vw;
+    max-width: 400px;
+    font-size: 16px;
+    line-height: 24px;
   }
 
   .btn {
-    width: 90%;
-    height: 12vw;
+    width: 250px;
+    
   }
 }
