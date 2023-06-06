@@ -29,7 +29,7 @@ export default function OutroComponente(cliente) {
                 </div>
                 <h1 className={styles.titulo_vermelho}>Seus Desafios</h1>
                 {
-                    client && client.desafios ? client.desafios.map(item => (<li>{item}</li>)) : ""
+                    client && client.desafios ? client.desafios.map(item => (<li key={item}>{item}</li>)) : ""
                 }
             </div>
             <div className={styles.boxPersonalizado}>
@@ -38,7 +38,7 @@ export default function OutroComponente(cliente) {
                 </div>
                 <h1 className={styles.titulo_vermelho}>Suas Oportunidades</h1>
                 {
-                    client && client.oportunidades ? client.oportunidades.map(item => (<li>{item}</li>)) : ""
+                    client && client.oportunidades ? client.oportunidades.map(item => (<li key={item}>{item}</li>)) : ""
                 }
             </div>
             <div className={styles.boxPersonalizado}>

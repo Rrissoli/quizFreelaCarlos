@@ -16,7 +16,7 @@ export default function Home() {
       <div className={styles.box_buttons}>
         <button className={styles.button_iniciar} > <Link href="/questionpage"> Iniciar Teste </Link></button>
       </div>
-      <Image src="/assets/caminho.png" width={605} height={164}/>
+      <Image src="/assets/caminho.png" width={605} height={164} alt=''/>
       </div>
     </main>
   )
