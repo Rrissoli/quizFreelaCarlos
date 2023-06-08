@@ -129,39 +129,44 @@ export default function QuestionPage() {
                 botao: "Quero aproveitar essa oportunidade"
             });
         }
-        
-        
+
+
     };
 
     if (posicao >= questoes.length) {
 
         return <OutroComponente cliente={objCliente} />;
     }
+    else {
+        return (
 
-    return (
-        <div className={styles.main_question}>
-            <div className={styles.page}>
-                <Link href="/">
-                    <button className={styles.button_back} >
-                        <Image src="/assets/stinha.svg" width={30} height={30} />
-                        Voltar
-                    </button>
-                </Link>
-                <div className={styles.pergunta_div}>
-                    <h1 className={styles.pergunta}>{questoes[posicao]?.pergunta}</h1>
-                </div>
-                <div className={styles.respostas_div}>
-                    {questoes[posicao]?.respostas.map((item) => (
-                        <button
-                            className={styles.resposta_div_squad}
-                            onClick={() => selecaoResposta(item.pontuacao)}
-                            key={item.id}
-                        >
-                            {item.resposta}
-                        </button>
-                    ))}
+            <div className={styles.main_question}>
+                <div className={styles.page}>
+                    <div className={styles.organization}>
+                        <Link href="/">
+                            <button className={styles.button_back} >
+                                <Image src="/assets/stinha.svg" width={30} height={30} />
+                                Voltar
+                            </button>
+                        </Link>
+                        <div className={styles.pergunta_div}>
+                            <h1 className={styles.pergunta}>{questoes[posicao]?.pergunta}</h1>
+                        </div>
+                        <div className={styles.respostas_div}>
+                            {questoes[posicao]?.respostas.map((item) => (
+                                <button
+                                    className={styles.resposta_div_squad}
+                                    onClick={() => selecaoResposta(item.pontuacao)}
+                                    key={item.id}
+                                >
+                                    {item.resposta}
+                                </button>
+                            ))}
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    );
+        );
+    }
+
 }

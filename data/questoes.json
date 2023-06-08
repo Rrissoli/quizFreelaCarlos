@@ -54,23 +54,23 @@
         "pergunta": "Me sinto totalmente disposto para crescer ainda mais a minha empresa e tenho consciência de que essa escalada vai me exigir muita energia.",
         "respostas": [
           {
-            "resposta": "Sim, estou preparado.",
+            "resposta": " Sim, estou preparado e sei meus próximos passos.",
             "pontuacao": 9
           },
           {
-            "resposta": "Me sinto um pouco cansado, mas quero muito isso.",
+            "resposta": "Eu quero conquistar muito mais, apenas me sinto um pouco confuso com os próximos passos.",
             "pontuacao": 7
           },
           {
-            "resposta": "Esse é o meu sonho, mas sinto cansado.",
+            "resposta": "Esse é o meu sonho, mas não sei como chegar lá, estou cansado de patinar.",
             "pontuacao": 5
           },
           {
-            "resposta": "Me sinto inseguro e com medo de não conseguir.",
+            "resposta": "Me sinto inseguro e perdido, não sei por onde começar.",
             "pontuacao": 2
           },
           {
-            "resposta": "Eu não estou disposto.",
+            "resposta": "Eu não me sinto disposto e não sei o que fazer, essa é a verdade!",
             "pontuacao": 0
           }
         ]
@@ -95,16 +95,16 @@
             "pontuacao": 2
           },
           {
-            "resposta": "Eu não tenho esse hábito.",
+            "resposta": "Eu não tenho esse hábito e não tenho tempo para isso.",
             "pontuacao": 0
           }
         ]
       },
       {
-        "pergunta": "Minha empresa tem planejamento de marketing e de vendas e sabemos com clareza tudo que precisamos fazer para atingir nossos objetivos. Nosso Instagram é alimentado diariamente com postagens e stories e isso tem trazido bons resultados.",
+        "pergunta": "Minha empresa tem planejamento de marketing e vendas. Sabemos com clareza tudo que precisamos fazer para atingir nossos objetivos",
         "respostas": [
           {
-            "resposta": "Sim, todo o conteúdo é planejado.",
+            "resposta": "Sim, todo o conteúdo é planejado e postamos todos os dias.",
             "pontuacao": 9
           },
           {
@@ -112,15 +112,15 @@
             "pontuacao": 7
           },
           {
-            "resposta": "Tento manter o máximo de constância possível no Instagram, mas nem sempre consigo.",
+            "resposta": "Tento manter o máximo de constância possível no Instagram mesmo sem planejamento.",
             "pontuacao": 5
           },
           {
-            "resposta": "Não tem estratégia profissional e os posts são em média 3 vezes na semana.",
+            "resposta": "Não tenho estratégia e os posts são no máximo 3 vezes na semana",
             "pontuacao": 2
           },
           {
-            "resposta": "Não estou produzindo conteúdo e não sei como produzir.",
+            "resposta": "Não estou produzindo conteúdo e não sei como começar.",
             "pontuacao": 0
           }
         ]
@@ -137,11 +137,11 @@
             "pontuacao": 7
           },
           {
-            "resposta": "Eu quero aparecer mais, mas tenho.",
+            "resposta": "Eu tenho vontade apesar de ter um pouco de vergonha, mas não tenho tempo.",
             "pontuacao": 5
           },
           {
-            "resposta": "Eu sei que é importante, mas não consigo tempo para me dedicar.",
+            "resposta": "Eu sei que é importante, mas não consigo tempo para me dedicar e não sei o que fazer.",
             "pontuacao": 2
           },
           {
@@ -151,35 +151,35 @@
         ]
       },
       {
-        "pergunta": "Eu entendo todas as funcionalidades do Instagram e uso todas elas (reels, posts, stories, lives) a nosso favor. Nós desenvolvemos a nossa identidade única e isso nos traz clientes alinhados com os nossos valores sempre.",
+        "pergunta": "Eu reconheço e comemoro todas as minhas vitórias e busco não me julgar por erros ou dificuldades. Meu foco é manter minha autoconfiança fortalecida.",
         "respostas": [
           {
-            "resposta": "Sim, ter uma identidade única me trouxe muitos resultados.",
+            "resposta": "Sim, minha autoconfiança me faz ser a pessoa forte que sou!",
             "pontuacao": 9
           },
           {
-            "resposta": "Eu entendo as funcionalidades e ainda não consegui desenvolver minha identidade, mas mantenho a frequência mesmo assim.",
+            "resposta": "Eu já fui muito mais autoconfiante, mas hoje algumas dificuldades pelo caminho me desmotivam.",
             "pontuacao": 7
           },
           {
-            "resposta": "Não entendo todas as funcionalidades e não consegui ainda alinhas minha identidade, me sinto perdido nesse assunto.",
+            "resposta": "O que abala minha autoconfiança é o julgamento das outras pessoas, isso faz com que eu não acredite na minha capacidade.",
             "pontuacao": 5
           },
           {
-            "resposta": "Eu quero criar essa comunidade com os meus clientes, mas não sei por onde começar.",
+            "resposta": "Eu me julgo muito, quero poder mudar isso, mas meus resultados ruins e a falta de dinheiro me afetam demais.",
             "pontuacao": 2
           },
           {
-            "resposta": "Eu não entendo muito sobre Instagram e não tenho tempo para me dedicar a isso.",
+            "resposta": "Eu me julgo todos os dias, me sinto desvalorizado e desmotivado e não sei como sair disso.",
             "pontuacao": 0
           }
         ]
       },
       {
-        "pergunta": "Eu já fiz estudos e pesquisas para conhecer mais o meu público e saber exatamente quem é o meu cliente ideal. Hoje atraímos bons clientes, que valorizam a minha marca e eu não sofro mais com clientes inconvenientes.",
+        "pergunta": "Meu produto/serviço atrai clientes de acordo com o meu público-alvo, que valorizam a minha empresa e me indicam outros bons clientes.",
         "respostas": [
           {
-            "resposta": "Sim, isso me traz clientes que se tornam fãs da marca.",
+            "resposta": "Sim, dedicamos tempo e estudo em cima da nossa empresa e dos nossos clientes para entender exatamente nosso nicho e isso atrai ótimos clientes todos os dias.",
             "pontuacao": 9
           },
           {
@@ -187,11 +187,11 @@
             "pontuacao": 7
           },
           {
-            "resposta": "Nunca fiz levantamento exato sobre público ideal, isso acaba me trazendo clientes errados com certa frequência.",
+            "resposta": " Nunca fiz levantamento exato sobre público ideal, isso acaba me trazendo clientes errados com certa frequência.",
             "pontuacao": 5
           },
           {
-            "resposta": "Vendo para qualquer pessoa e tenho constantemente clientes pedindo desconto e não valorizando minha marca como eu gostaria.",
+            "resposta": "Só quero vender, então vendo para qualquer pessoa e tenho constantemente clientes pedindo desconto e não valorizando minha marca como eu gostaria.",
             "pontuacao": 2
           },
           {
@@ -201,10 +201,10 @@
         ]
       },
       {
-        "pergunta": "Tenho clareza sobre onde quero que minha empresa esteja em 3 anos e sei qual o caminho que devo seguir para alcançar esse objetivo. Por isso 2023 já está completamente planejado. Temos mês a mês a programação do que faremos tanto na área de marketing quanto na área de vendas e isso vai nos trazer ainda mais resultados.",
+        "pergunta": "Tenho clareza sobre onde quero que minha empresa esteja em 3 anos e tenho planejado o caminho que devo seguir para alcançar esse objetivo.",
         "respostas": [
           {
-            "resposta": "Sim, nada é feito na empresa sem planejamento e metas.",
+            "resposta": "Sim, nada é feito na empresa sem planejamento. Nós estamos focados em alcançar nossas metas.",
             "pontuacao": 9
           },
           {
@@ -216,11 +216,11 @@
             "pontuacao": 5
           },
           {
-            "resposta": "Eu tenho dificuldade em definir metas e planejar ações, sempre faço tudo em cima da hora.",
+            "resposta": "Eu tenho dificuldade em definir metas e planejar meus objetivos, parece que meu tempo nunca é suficiente.",
             "pontuacao": 2
           },
           {
-            "resposta": "Eu não tenho clareza de onde quero chegar e não faço planejamento.",
+            "resposta": "Eu não tenho planejamento e me sinto abraçando o mundo e apagando incêndios todos os dias.",
             "pontuacao": 0
           }
         ]
