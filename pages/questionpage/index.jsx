@@ -133,7 +133,7 @@ export default function QuestionPage() {
 
     };
 
-    if (posicao >= questoes.length) {
+    if (posicao >= questoes.length && objCliente) {
 
         return <OutroComponente cliente={objCliente} />;
     }
@@ -143,12 +143,6 @@ export default function QuestionPage() {
             <div className={styles.main_question}>
                 <div className={styles.page}>
                     <div className={styles.organization}>
-                        <Link href="/">
-                            <button className={styles.button_back} >
-                                <Image src="/assets/stinha.svg" width={30} height={30} />
-                                Voltar
-                            </button>
-                        </Link>
                         <div className={styles.pergunta_div}>
                             <h1 className={styles.pergunta}>{questoes[posicao]?.pergunta}</h1>
                         </div>
@@ -163,6 +157,11 @@ export default function QuestionPage() {
                                 </button>
                             ))}
                         </div>
+                        <Link href="/">
+                            <button className={styles.button_back} >
+                                Cancelar Teste
+                            </button>
+                        </Link>
                     </div>
                 </div>
             </div>

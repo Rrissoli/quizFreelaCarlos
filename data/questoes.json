@@ -1,7 +1,7 @@
 {
     "perguntas": [
       {
-        "pergunta": "Sou uma pessoa bem organizada na vida pessoal e profissional e sigo minha agenda sempre!",
+        "pergunta": "1. Sou uma pessoa bem organizada na vida pessoal e profissional e sigo minha agenda sempre!",
         "respostas": [
           {
             "resposta": "Sim, sou 100% organizado",
@@ -26,7 +26,7 @@
         ]
       },
       {
-        "pergunta": "Eu sou uma pessoa focada e constante nos negócios e não me deixo distrair no dia a dia por coisas que tomam meu tempo sem me trazer resultados.",
+        "pergunta": "2. Eu sou uma pessoa focada e constante nos negócios e não me deixo distrair no dia a dia por coisas que tomam meu tempo sem me trazer resultados.",
         "respostas": [
           {
             "resposta": "Sim, sempre priorizo aquilo que é mais importante.",
@@ -51,7 +51,7 @@
         ]
       },
       {
-        "pergunta": "Me sinto totalmente disposto para crescer ainda mais a minha empresa e tenho consciência de que essa escalada vai me exigir muita energia.",
+        "pergunta": "3. Me sinto totalmente disposto para crescer ainda mais a minha empresa e tenho consciência de que essa escalada vai me exigir muita energia.",
         "respostas": [
           {
             "resposta": " Sim, estou preparado e sei meus próximos passos.",
@@ -76,7 +76,7 @@
         ]
       },
       {
-        "pergunta": "Busco conhecimento todos os dias, seja lendo livros, participando de cursos, workshops ou mentorias. Eu tenho consciência de que o conhecimento nunca acaba.",
+        "pergunta": "4. Busco conhecimento todos os dias, seja lendo livros, participando de cursos, workshops ou mentorias. Eu tenho consciência de que o conhecimento nunca acaba.",
         "respostas": [
           {
             "resposta": "Sim, dedico no mínimo 60 minutos do meu dia aos estudos.",
@@ -101,7 +101,7 @@
         ]
       },
       {
-        "pergunta": "Minha empresa tem planejamento de marketing e vendas. Sabemos com clareza tudo que precisamos fazer para atingir nossos objetivos",
+        "pergunta": "5. Minha empresa tem planejamento de marketing e vendas. Sabemos com clareza tudo que precisamos fazer para atingir nossos objetivos",
         "respostas": [
           {
             "resposta": "Sim, todo o conteúdo é planejado e postamos todos os dias.",
@@ -126,7 +126,7 @@
         ]
       },
       {
-        "pergunta": "Eu sou a cara do meu negócio e NÃO tenho vergonha de aparecer em vídeos e nos stories e de falar sobre a minha empresa e os meus produtos/serviços.",
+        "pergunta": "6. Eu sou a cara do meu negócio e NÃO tenho vergonha de aparecer em vídeos e nos stories e de falar sobre a minha empresa e os meus produtos/serviços.",
         "respostas": [
           {
             "resposta": "Sim, estou presente e cuidando pessoalmente do Instagram todos os dias.",
@@ -151,7 +151,7 @@
         ]
       },
       {
-        "pergunta": "Eu reconheço e comemoro todas as minhas vitórias e busco não me julgar por erros ou dificuldades. Meu foco é manter minha autoconfiança fortalecida.",
+        "pergunta": "7. Eu reconheço e comemoro todas as minhas vitórias e busco não me julgar por erros ou dificuldades. Meu foco é manter minha autoconfiança fortalecida.",
         "respostas": [
           {
             "resposta": "Sim, minha autoconfiança me faz ser a pessoa forte que sou!",
@@ -176,7 +176,7 @@
         ]
       },
       {
-        "pergunta": "Meu produto/serviço atrai clientes de acordo com o meu público-alvo, que valorizam a minha empresa e me indicam outros bons clientes.",
+        "pergunta": "8. Meu produto/serviço atrai clientes de acordo com o meu público-alvo, que valorizam a minha empresa e me indicam outros bons clientes.",
         "respostas": [
           {
             "resposta": "Sim, dedicamos tempo e estudo em cima da nossa empresa e dos nossos clientes para entender exatamente nosso nicho e isso atrai ótimos clientes todos os dias.",
@@ -201,7 +201,7 @@
         ]
       },
       {
-        "pergunta": "Tenho clareza sobre onde quero que minha empresa esteja em 3 anos e tenho planejado o caminho que devo seguir para alcançar esse objetivo.",
+        "pergunta": "9. Tenho clareza sobre onde quero que minha empresa esteja em 3 anos e tenho planejado o caminho que devo seguir para alcançar esse objetivo.",
         "respostas": [
           {
             "resposta": "Sim, nada é feito na empresa sem planejamento. Nós estamos focados em alcançar nossas metas.",

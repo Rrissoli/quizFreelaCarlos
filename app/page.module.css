@@ -18,13 +18,17 @@
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 600;
-  font-size: 36px;
+  font-size: 26px;
   line-height: 54px;
   }
   
   .vermelho {
   color: #E90101;
   }
+  .vermelho1 {
+    color: #E90101;
+    font-size: 38px;
+    }
   
   .box {
   display: flex;

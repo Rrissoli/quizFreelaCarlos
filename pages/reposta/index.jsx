@@ -9,7 +9,7 @@ export default function OutroComponente(cliente) {
     return (
         <div className={styles.main_resposta}>
             <Image src={client.assets} width={200} height={300} />
-            <h1 className={styles.tittle1}>Você fez...</h1>
+            <h1 className={styles.tittle1}>VOCÊ FEZ...</h1>
             <h1 className={styles.pontuacao}>{client.pontuacao} PONTOS</h1>
             <div className={styles.banner}>{client.classificacao}</div>
             <div className={styles.boxPersonalizado}>
@@ -27,7 +27,7 @@ export default function OutroComponente(cliente) {
                 <div className={styles.bol}>
                     <Image src="/assets/bandeira-pirata.svg" width={62} height={62} />
                 </div>
-                <h1 className={styles.titulo_vermelho}>Seus Desafios</h1>
+                <h1 className={styles.titulo_vermelho}>SEUS DESAFIOS</h1>
                 {
                     client && client.desafios ? client.desafios.map(item => (<li key={item}>{item}</li>)) : ""
                 }
@@ -36,7 +36,7 @@ export default function OutroComponente(cliente) {
                 <div className={styles.bol}>
                     <Image src="/assets/bussola.svg" width={62} height={62} />
                 </div>
-                <h1 className={styles.titulo_vermelho}>Suas Oportunidades</h1>
+                <h1 className={styles.titulo_vermelho}>SUAS OPORTUNIDADES</h1>
                 {
                     client && client.oportunidades ? client.oportunidades.map(item => (<li key={item}>{item}</li>)) : ""
                 }
@@ -45,7 +45,7 @@ export default function OutroComponente(cliente) {
                 <div className={styles.bol}>
                     <Image src="/assets/barco.svg" width={62} height={62} />
                 </div>
-                <h1 className={styles.titulo_vermelho}>Como Navegar</h1>
+                <h1 className={styles.titulo_vermelho}>COMO NAVEGAR</h1>
                 <p>{client.navegar}</p>
             </div>
 

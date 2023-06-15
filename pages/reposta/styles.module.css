@@ -11,7 +11,7 @@
 }
 
 .boxPersonalizado {
-  border-top: solid 1px #fff;
+ 
   width: 1000px;
   padding-top: 30px;
   gap: 30px;
@@ -36,7 +36,7 @@
   line-height: 42px;
   /* identical to box height */
   text-align: center;
-  color: #E90101;
+  color: #fff;
 }
 
 .pontuacao {
