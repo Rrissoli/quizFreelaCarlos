@@ -46,7 +46,8 @@ export default function QuestionPage() {
                     "Hora de dobrar o seu faturamento"
                 ],
                 navegar: "Diversos empreendedores já estão conquistando seus tesouros e dominando as marés do empreendedorismo. Você foi aprovado para passar para próxima fase, com maiores desafios para escalar o seu negócio. Se você deixar para amanhã, alguém tomará o seu lugar, agora é a sua oportunidade de ter o mapa do tesouro em mãos e conquistar muito mais! Está preparado para o desafio?",
-                botao: "Quero conhecer a minha Bússola Digital"
+                botao: "Quero conhecer a minha Bússola Digital", 
+                url: "/assets/COMANDANTE.png"
             });
         } else if (pontuador > 60 && pontuador < 70) {
             setObjCliente({
@@ -66,7 +67,8 @@ export default function QuestionPage() {
                     "Atrair clientes que valorizam a sua empresa e pagam bem"
                 ],
                 navegar: "É hora de você se preparar para assumir o navio como comandante e navegar em águas mais profundas, descobrindo tesouros ainda maiores. Seu próximo passo é levantar a âncora e se preparar para desbravar o alto mar.",
-                botao: "A bússola para chegar ao seu tesouro está aqui."
+                botao: "A bússola para chegar ao seu tesouro está aqui.",
+                url: "/assets/Navegador.png"
             });
         } else if (pontuador > 45 && pontuador < 60) {
             setObjCliente({
@@ -86,7 +88,8 @@ export default function QuestionPage() {
                     "O mercado está cheio de oportunidades e os clientes precisam do seu produto, a hora de focar na rota certa é agora."
                 ],
                 navegar: "Preciso ser sincera, eu sei que você pode conquistar muito mais, só que nesse momento você está remando contra a maré! Você tem grandes objetivos, mas o seu navio ainda não achou a rota certa para conquistá-los e o seu combustível pode não durar por muito tempo. Não desanime, esta é a oportunidade certa para você finalmente sentir o navio a todo vapor. Vamos encontrar o seu baú do tesouro juntos, nossa missão vai começar.",
-                botao: "Pegue sua bússola aqui"
+                botao: "Pegue sua bússola aqui",
+                url: "/assets/MARINHEIRO.png"
             });
         } else if (pontuador > 30 && pontuador < 45) {
             setObjCliente({
@@ -106,9 +109,10 @@ export default function QuestionPage() {
                     "Mostrar que você é capaz para todos que não acreditam no seu potencial"
                 ],
                 navegar: "SOS! Esse é o seu último tanque de combustível e você está navegando em direção a um enorme iceberg. É preciso acelerar e desviar a rota para encontrar seus resultados. Você sabe que todo grande comandante começou como aprendiz, mas para se destacar é hora de jogar fora todo o excesso de peso que você carrega e descobrir qual é a sua rota certa. Você não estará sozinho, quero guiá-lo na sua próxima missão!",
-                botao: "Quero conhecer minha próxima missão"
+                botao: "Quero conhecer minha próxima missão",
+                url: "/assets/Aprendiz.png"
             });
-        } else if (pontuador > 0 && pontuador < 30) {
+        } else if (pontuador == 0 && pontuador < 30) {
             setObjCliente({
                 classificacao: "NÁUFRAGO",
                 assets: "/assets/Naufrago.svg",
@@ -126,7 +130,8 @@ export default function QuestionPage() {
                     "Se juntar a muitos outros empreendedores que se identificam com as suas dores e que caminharão junto com você rumo ao baú do tesouro."
                 ],
                 navegar: "Preste atenção no quanto você já se desgastou tentando e errando até aqui, sem nenhuma orientação. Agora é a oportunidade certa para construir um negócio de verdade. Sei que pode dar um pouco de medo, por isso estou aqui e não vou soltar a sua mão. Você tem sonhos que ainda estão distantes e sei que você é capaz de conquistá-los, para isso será preciso muita dedicação, foco e vontade para aproveitar as oportunidades que surgirem.",
-                botao: "Quero aproveitar essa oportunidade"
+                botao: "Quero aproveitar essa oportunidade",
+                url: "/assets/NÁUFRAGO.png"
             });
         }
 
@@ -146,23 +151,22 @@ export default function QuestionPage() {
                         <div className={styles.pergunta_div}>
                             <h1 className={styles.pergunta}>{questoes[posicao]?.pergunta}</h1>
                         </div>
-                        <div className={styles.respostas_div}>
-                            {questoes[posicao]?.respostas.map((item) => (
-                                <button
-                                    className={styles.resposta_div_squad}
-                                    onClick={() => selecaoResposta(item.pontuacao)}
-                                    key={item.id}
-                                >
-                                    {item.resposta}
-                                </button>
-                            ))}
+                        <p className={styles.describePontuation}>1 = Discordo completamente <br /> 5 = Concordo completamente</p>
+                        <div className={styles.caixaPosicao}>
+                            <p>{posicao + 1}/10</p>
                         </div>
-                        <Link href="/">
-                            <button className={styles.button_back} >
-                                Cancelar Teste
-                            </button>
-                        </Link>
                     </div>
+                </div>
+                <div className={styles.respostas_div}>
+                    {questoes[posicao]?.respostas.map((item) => (
+                        <button
+                            className={styles.resposta_div_squad}
+                            onClick={() => selecaoResposta(item.pontuacao)}
+                            key={item.id}
+                        >
+                            {item.resposta}
+                        </button>
+                    ))}
                 </div>
             </div>
         );

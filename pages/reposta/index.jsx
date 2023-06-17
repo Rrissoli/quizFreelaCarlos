@@ -5,13 +5,13 @@ import Image from 'next/image';
 
 export default function OutroComponente(cliente) {
     const [client, setClient] = useState({ ...cliente.cliente })
-    console.log(client)
+    
     return (
         <div className={styles.main_resposta}>
             <Image src={client.assets} width={200} height={300} />
             <h1 className={styles.tittle1}>VOCÊ FEZ...</h1>
             <h1 className={styles.pontuacao}>{client.pontuacao} PONTOS</h1>
-            <div className={styles.banner}>{client.classificacao}</div>
+            <Image src={client.url} width={235} height={219}/>
             <div className={styles.boxPersonalizado}>
 
                 <p>

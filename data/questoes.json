@@ -1,230 +1,255 @@
 {
-    "perguntas": [
-      {
-        "pergunta": "1. Sou uma pessoa bem organizada na vida pessoal e profissional e sigo minha agenda sempre!",
-        "respostas": [
-          {
-            "resposta": "Sim, sou 100% organizado",
-            "pontuacao": 9
-          },
-          {
-            "resposta": "Sou organizado, mas ainda tenho dificuldades na gestão do tempo.",
-            "pontuacao": 7
-          },
-          {
-            "resposta": "Tento ao máximo, mas não consigo fazer tudo que preciso.",
-            "pontuacao": 5
-          },
-          {
-            "resposta": "Eu tenho dificuldade em criar minha agenda",
-            "pontuacao": 2
-          },
-          {
-            "resposta": "Sou completamente desorganizado e faço as coisas conforme aparecem.",
-            "pontuacao": 0
-          }
-        ]
-      },
-      {
-        "pergunta": "2. Eu sou uma pessoa focada e constante nos negócios e não me deixo distrair no dia a dia por coisas que tomam meu tempo sem me trazer resultados.",
-        "respostas": [
-          {
-            "resposta": "Sim, sempre priorizo aquilo que é mais importante.",
-            "pontuacao": 9
-          },
-          {
-            "resposta": "Apesar de cumprir minha agenda, sinto que algo ainda me rouba tempo.",
-            "pontuacao": 7
-          },
-          {
-            "resposta": "Tenho facilidade de me distrair, por isso as coisas acabam ficando sempre para cima da hora.",
-            "pontuacao": 5
-          },
-          {
-            "resposta": "Eu fico nervoso (ou ansioso) com o tanto de tarefas a fazer e isso acaba tirando mais ainda meu foco. Alguns dias eu simplesmente não faço nada.",
-            "pontuacao": 2
-          },
-          {
-            "resposta": "Além de não conseguir cumprir tudo que preciso, sinto que é muito fácil me distrair com o celular, me falta foco e clareza.",
-            "pontuacao": 0
-          }
-        ]
-      },
-      {
-        "pergunta": "3. Me sinto totalmente disposto para crescer ainda mais a minha empresa e tenho consciência de que essa escalada vai me exigir muita energia.",
-        "respostas": [
-          {
-            "resposta": " Sim, estou preparado e sei meus próximos passos.",
-            "pontuacao": 9
-          },
-          {
-            "resposta": "Eu quero conquistar muito mais, apenas me sinto um pouco confuso com os próximos passos.",
-            "pontuacao": 7
-          },
-          {
-            "resposta": "Esse é o meu sonho, mas não sei como chegar lá, estou cansado de patinar.",
-            "pontuacao": 5
-          },
-          {
-            "resposta": "Me sinto inseguro e perdido, não sei por onde começar.",
-            "pontuacao": 2
-          },
-          {
-            "resposta": "Eu não me sinto disposto e não sei o que fazer, essa é a verdade!",
-            "pontuacao": 0
-          }
-        ]
-      },
-      {
-        "pergunta": "4. Busco conhecimento todos os dias, seja lendo livros, participando de cursos, workshops ou mentorias. Eu tenho consciência de que o conhecimento nunca acaba.",
-        "respostas": [
-          {
-            "resposta": "Sim, dedico no mínimo 60 minutos do meu dia aos estudos.",
-            "pontuacao": 9
-          },
-          {
-            "resposta": "Sim, eu estudo pelo menos 3x na semana.",
-            "pontuacao": 7
-          },
-          {
-            "resposta": "Eu estudo menos do que gostaria, parece que nunca tenho tempo.",
-            "pontuacao": 5
-          },
-          {
-            "resposta": "Eu não tenho esse hábito, mas sei que deveria me dedicar.",
-            "pontuacao": 2
-          },
-          {
-            "resposta": "Eu não tenho esse hábito e não tenho tempo para isso.",
-            "pontuacao": 0
-          }
-        ]
-      },
-      {
-        "pergunta": "5. Minha empresa tem planejamento de marketing e vendas. Sabemos com clareza tudo que precisamos fazer para atingir nossos objetivos",
-        "respostas": [
-          {
-            "resposta": "Sim, todo o conteúdo é planejado e postamos todos os dias.",
-            "pontuacao": 9
-          },
-          {
-            "resposta": "O conteúdo é produzido diariamente, porém sem uma estratégia profissional.",
-            "pontuacao": 7
-          },
-          {
-            "resposta": "Tento manter o máximo de constância possível no Instagram mesmo sem planejamento.",
-            "pontuacao": 5
-          },
-          {
-            "resposta": "Não tenho estratégia e os posts são no máximo 3 vezes na semana",
-            "pontuacao": 2
-          },
-          {
-            "resposta": "Não estou produzindo conteúdo e não sei como começar.",
-            "pontuacao": 0
-          }
-        ]
-      },
-      {
-        "pergunta": "6. Eu sou a cara do meu negócio e NÃO tenho vergonha de aparecer em vídeos e nos stories e de falar sobre a minha empresa e os meus produtos/serviços.",
-        "respostas": [
-          {
-            "resposta": "Sim, estou presente e cuidando pessoalmente do Instagram todos os dias.",
-            "pontuacao": 9
-          },
-          {
-            "resposta": "Eu não tenho vergonha, mas não sei qual conteúdo produzir, por isso apareço pouco.",
-            "pontuacao": 7
-          },
-          {
-            "resposta": "Eu tenho vontade apesar de ter um pouco de vergonha, mas não tenho tempo.",
-            "pontuacao": 5
-          },
-          {
-            "resposta": "Eu sei que é importante, mas não consigo tempo para me dedicar e não sei o que fazer.",
-            "pontuacao": 2
-          },
-          {
-            "resposta": "Eu não apareço.",
-            "pontuacao": 0
-          }
-        ]
-      },
-      {
-        "pergunta": "7. Eu reconheço e comemoro todas as minhas vitórias e busco não me julgar por erros ou dificuldades. Meu foco é manter minha autoconfiança fortalecida.",
-        "respostas": [
-          {
-            "resposta": "Sim, minha autoconfiança me faz ser a pessoa forte que sou!",
-            "pontuacao": 9
-          },
-          {
-            "resposta": "Eu já fui muito mais autoconfiante, mas hoje algumas dificuldades pelo caminho me desmotivam.",
-            "pontuacao": 7
-          },
-          {
-            "resposta": "O que abala minha autoconfiança é o julgamento das outras pessoas, isso faz com que eu não acredite na minha capacidade.",
-            "pontuacao": 5
-          },
-          {
-            "resposta": "Eu me julgo muito, quero poder mudar isso, mas meus resultados ruins e a falta de dinheiro me afetam demais.",
-            "pontuacao": 2
-          },
-          {
-            "resposta": "Eu me julgo todos os dias, me sinto desvalorizado e desmotivado e não sei como sair disso.",
-            "pontuacao": 0
-          }
-        ]
-      },
-      {
-        "pergunta": "8. Meu produto/serviço atrai clientes de acordo com o meu público-alvo, que valorizam a minha empresa e me indicam outros bons clientes.",
-        "respostas": [
-          {
-            "resposta": "Sim, dedicamos tempo e estudo em cima da nossa empresa e dos nossos clientes para entender exatamente nosso nicho e isso atrai ótimos clientes todos os dias.",
-            "pontuacao": 9
-          },
-          {
-            "resposta": "Tento entender quem é meu cliente ideal, mas não tenho o hábito de estudar sobre ele, sei que isso me prejudica um pouco.",
-            "pontuacao": 7
-          },
-          {
-            "resposta": " Nunca fiz levantamento exato sobre público ideal, isso acaba me trazendo clientes errados com certa frequência.",
-            "pontuacao": 5
-          },
-          {
-            "resposta": "Só quero vender, então vendo para qualquer pessoa e tenho constantemente clientes pedindo desconto e não valorizando minha marca como eu gostaria.",
-            "pontuacao": 2
-          },
-          {
-            "resposta": "Eu estou com dificuldade de atrair clientes e nunca fiz estudos sobre meu público ideal.",
-            "pontuacao": 0
-          }
-        ]
-      },
-      {
-        "pergunta": "9. Tenho clareza sobre onde quero que minha empresa esteja em 3 anos e tenho planejado o caminho que devo seguir para alcançar esse objetivo.",
-        "respostas": [
-          {
-            "resposta": "Sim, nada é feito na empresa sem planejamento. Nós estamos focados em alcançar nossas metas.",
-            "pontuacao": 9
-          },
-          {
-            "resposta": "Eu sei onde quero chegar, planejo minha semana, mas não tenho planejamento a longo prazo.",
-            "pontuacao": 7
-          },
-          {
-            "resposta": "Eu apenas sigo minhas tarefas, não tenho planejamento ou metas definidas por períodos.",
-            "pontuacao": 5
-          },
-          {
-            "resposta": "Eu tenho dificuldade em definir metas e planejar meus objetivos, parece que meu tempo nunca é suficiente.",
-            "pontuacao": 2
-          },
-          {
-            "resposta": "Eu não tenho planejamento e me sinto abraçando o mundo e apagando incêndios todos os dias.",
-            "pontuacao": 0
-          }
-        ]
-      }
-    ]
-  }
-  
+  "perguntas": [
+    {
+      "pergunta": "1. Sou uma pessoa bem organizada na vida pessoal e profissional e sigo minha agenda sempre!",
+      "respostas": [
+        {
+          "resposta": 1,
+          "pontuacao": 0
+        },
+        {
+          "resposta": 2,
+          "pontuacao": 2
+        },
+        {
+          "resposta": 3,
+          "pontuacao": 5
+        },
+        {
+          "resposta": 4,
+          "pontuacao": 7
+        },
+        {
+          "resposta": 5,
+          "pontuacao": 9
+        }
+      ]
+    },
+    {
+      "pergunta": "2. Eu sou uma pessoa focada e constante nos negócios e não me deixo distrair no dia a dia por coisas que tomam meu tempo sem me trazer resultados.",
+      "respostas": [
+        {
+          "resposta": 1,
+          "pontuacao": 0
+        },
+        {
+          "resposta": 2,
+          "pontuacao": 2
+        },
+        {
+          "resposta": 3,
+          "pontuacao": 5
+        },
+        {
+          "resposta": 4,
+          "pontuacao": 7
+        },
+        {
+          "resposta": 5,
+          "pontuacao": 9
+        }
+      ]
+    },
+    {
+      "pergunta": "3. Me sinto totalmente disposto para crescer ainda mais a minha empresa e tenho consciência de que essa escalada vai me exigir muita energia.",
+      "respostas": [
+        {
+          "resposta": 1,
+          "pontuacao": 0
+        },
+        {
+          "resposta": 2,
+          "pontuacao": 2
+        },
+        {
+          "resposta": 3,
+          "pontuacao": 5
+        },
+        {
+          "resposta": 4,
+          "pontuacao": 7
+        },
+        {
+          "resposta": 5,
+          "pontuacao": 9
+        }
+      ]
+    },
+    {
+      "pergunta": "4. Busco conhecimento todos os dias, seja lendo livros, participando de cursos, workshops ou mentorias. Eu tenho consciência de que o conhecimento nunca acaba.",
+      "respostas": [
+        {
+          "resposta": 1,
+          "pontuacao": 0
+        },
+        {
+          "resposta": 2,
+          "pontuacao": 2
+        },
+        {
+          "resposta": 3,
+          "pontuacao": 5
+        },
+        {
+          "resposta": 4,
+          "pontuacao": 7
+        },
+        {
+          "resposta": 5,
+          "pontuacao": 9
+        }
+      ]
+    },
+    {
+      "pergunta": "5. Minha empresa tem planejamento de marketing e vendas. Sabemos com clareza tudo que precisamos fazer para atingir nossos objetivos",
+      "respostas": [
+        {
+          "resposta": 1,
+          "pontuacao": 0
+        },
+        {
+          "resposta": 2,
+          "pontuacao": 2
+        },
+        {
+          "resposta": 3,
+          "pontuacao": 5
+        },
+        {
+          "resposta": 4,
+          "pontuacao": 7
+        },
+        {
+          "resposta": 5,
+          "pontuacao": 9
+        }
+      ]
+    },
+    {
+      "pergunta": "6. Eu sou a cara do meu negócio e NÃO tenho vergonha de aparecer em vídeos e nos stories e de falar sobre a minha empresa e os meus produtos/serviços.",
+      "respostas": [
+        {
+          "resposta": 1,
+          "pontuacao": 0
+        },
+        {
+          "resposta": 2,
+          "pontuacao": 2
+        },
+        {
+          "resposta": 3,
+          "pontuacao": 5
+        },
+        {
+          "resposta": 4,
+          "pontuacao": 7
+        },
+        {
+          "resposta": 5,
+          "pontuacao": 9
+        }
+      ]
+    },
+    {
+      "pergunta": "7. Eu reconheço e comemoro todas as minhas vitórias e busco não me julgar por erros ou dificuldades. Meu foco é manter minha autoconfiança fortalecida.",
+      "respostas": [
+        {
+          "resposta": 1,
+          "pontuacao": 0
+        },
+        {
+          "resposta": 2,
+          "pontuacao": 2
+        },
+        {
+          "resposta": 3,
+          "pontuacao": 5
+        },
+        {
+          "resposta": 4,
+          "pontuacao": 7
+        },
+        {
+          "resposta": 5,
+          "pontuacao": 9
+        }
+      ]
+    },
+    {
+      "pergunta": "8. Meu produto/serviço atrai clientes de acordo com o meu público-alvo, que valorizam a minha empresa e me indicam outros bons clientes.",
+      "respostas": [
+        {
+          "resposta": 1,
+          "pontuacao": 0
+        },
+        {
+          "resposta": 2,
+          "pontuacao": 2
+        },
+        {
+          "resposta": 3,
+          "pontuacao": 5
+        },
+        {
+          "resposta": 4,
+          "pontuacao": 7
+        },
+        {
+          "resposta": 5,
+          "pontuacao": 9
+        }
+      ]
+    },
+    {
+      "pergunta": "9. Tenho clareza sobre onde quero que minha empresa esteja em 3 anos e tenho planejado o caminho que devo seguir para alcançar esse objetivo.",
+      "respostas": [
+        {
+          "resposta": 1,
+          "pontuacao": 0
+        },
+        {
+          "resposta": 2,
+          "pontuacao": 2
+        },
+        {
+          "resposta": 3,
+          "pontuacao": 5
+        },
+        {
+          "resposta": 4,
+          "pontuacao": 7
+        },
+        {
+          "resposta": 5,
+          "pontuacao": 9
+        }
+      ]
+    },
+    {
+      "pergunta": "10. Nos últimos 6 meses meu faturamento aumentou e eu estou investindo para crescer ainda mais!",
+      "respostas": [
+        {
+          "resposta": 1,
+          "pontuacao": 0
+        },
+        {
+          "resposta": 2,
+          "pontuacao": 2
+        },
+        {
+          "resposta": 3,
+          "pontuacao": 5
+        },
+        {
+          "resposta": 4,
+          "pontuacao": 7
+        },
+        {
+          "resposta": 5,
+          "pontuacao": 9
+        }
+      ]
+    }
+
+  ]
+}

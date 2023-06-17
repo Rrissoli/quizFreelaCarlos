@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Poppins:wght@200;600&display=swap');
+
 .main_question {
   display: flex;
   flex-direction: column;
@@ -13,23 +14,47 @@
 }
 
 .page {
- 
- 
-  background-image: url("/assets/old_paper.png");
+
+
+  background-image: url("/assets/OlderPaper.png");
   background-repeat: no-repeat;
   background-position: center;
- 
-  height: 80%;
-    width: 80%;
-  
+  padding-top: 120px;
+  height: 60%;
+  width: 100vh;
+
 }
-.organization{
+
+.caixaPosicao {
+  margin-top: 30px;
+  background: rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 250px;
+  width: 73px;
+  height: 30px;
+  text-align: center;
+}
+
+.organization {
   display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-height: 600px;
-    
+  flex-direction: column;
+  align-items: center;
+  max-height: 600px;
+
 }
+
+.describePontuation {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+
+  color: #000000;
+
+}
+
 .button_back {
   all: unset;
   width: 178px;
@@ -50,12 +75,12 @@
   font-family: 'Inter';
   font-style: normal;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 30px;
   line-height: 39px;
   text-align: center;
   color: #000000;
   margin-bottom: 30px;
-  
+
 }
 
 .pergunta_div {
@@ -65,9 +90,10 @@
 .resposta_div_squad {
   text-align: center;
   padding: 15px;
-  background: rgba(0, 0, 0, 0.7);
-  border-radius: 79px;
-  width: 100%;
+  background: #00124D;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  width: 61px;
   min-height: 60px;
 }
 
@@ -75,28 +101,30 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
+  flex-direction: row;
   gap: 20px;
   min-width: 200px;
   max-width: 500px;
   max-height: 600px;
-  
+
 }
 
 /* Responsividade */
 @media (max-width: 1024px) {
-  .page{
-height: 100vh;
+  .page {
+    height: 65vh;
+
   }
-  .organization{
-    padding-top: 30px;
+
+  .organization {
+    padding-top: 40px;
   }
 }
 
 @media (max-width: 768px) {
   .page {
     width: 90%;
-    
+
   }
 
   .pergunta {
@@ -110,7 +138,7 @@ height: 100vh;
 
   .resposta_div_squad {
     padding: 10px;
-    border-radius: 6vw;
+
     width: 80%;
     min-height: 10vw;
   }
@@ -122,23 +150,25 @@ height: 100vh;
 
 @media (max-width: 480px) {
   .page {
-    background-size: cover;
-    height: 100vh;
+    background-image: url("/assets/OldMobile.png");
+    padding-top: 100px;
+    height: 70vh;
   }
 
   .pergunta {
     font-size: 4vw;
     line-height: 5vw;
-    font-size: 12px;
+    font-size: 24px;
   }
 
   .resposta_div_squad {
     padding: 5px;
-    width: 90%;
-    min-height: 5vw;
+    width: 40px;
+    height: 40px;
   }
 
   .respostas_div {
     gap: 10vw;
   }
 }
+
