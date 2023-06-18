@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 export default function OutroComponente(cliente) {
     const [client, setClient] = useState({ ...cliente.cliente })
-    
+    console.log(client.pontuacao)
     return (
         <div className={styles.main_resposta}>
             <Image src={client.assets} width={200} height={300} />

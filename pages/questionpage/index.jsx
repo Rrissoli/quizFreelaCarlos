@@ -8,7 +8,9 @@ import Link from 'next/link'
 
 export default function QuestionPage() {
     const [questoes, setQuestoes] = useState([]);
+    const [redirectTo, setRedirectTo] = useState(false)
     const [pontuador, setPontuador] = useState(0);
+
     const [posicao, setPosicao] = useState(0);
     const [objCliente, setObjCliente] = useState(null)
     useEffect(() => {
@@ -21,14 +23,9 @@ export default function QuestionPage() {
         fetchQuestoes();
     }, []);
 
-    const selecaoResposta = (pontuacao) => {
-        let posicaoF = posicao;
-        let somaPosicao = posicaoF + 1;
-        setPosicao(somaPosicao);
-        let soma = pontuador + pontuacao;
-        setPontuador(soma);
-        console.log(pontuador);
-        if (pontuador > 70) {
+
+    const verifica = async (pontuador) => {
+        if (pontuador >= 90) {
             setObjCliente({
                 classificacao: "Comandante",
                 assets: "/assets/comandanteResult.svg",
@@ -46,10 +43,10 @@ export default function QuestionPage() {
                     "Hora de dobrar o seu faturamento"
                 ],
                 navegar: "Diversos empreendedores já estão conquistando seus tesouros e dominando as marés do empreendedorismo. Você foi aprovado para passar para próxima fase, com maiores desafios para escalar o seu negócio. Se você deixar para amanhã, alguém tomará o seu lugar, agora é a sua oportunidade de ter o mapa do tesouro em mãos e conquistar muito mais! Está preparado para o desafio?",
-                botao: "Quero conhecer a minha Bússola Digital", 
+                botao: "Quero conhecer a minha Bússola Digital",
                 url: "/assets/COMANDANTE.png"
             });
-        } else if (pontuador > 60 && pontuador < 70) {
+        } else if (pontuador >= 70 && pontuador < 90) {
             setObjCliente({
                 classificacao: "Navegador",
                 assets: "/assets/navegadorResult.svg",
@@ -70,7 +67,7 @@ export default function QuestionPage() {
                 botao: "A bússola para chegar ao seu tesouro está aqui.",
                 url: "/assets/Navegador.png"
             });
-        } else if (pontuador > 45 && pontuador < 60) {
+        } else if (pontuador >= 50 && pontuador < 70) {
             setObjCliente({
                 classificacao: "Marinheiro",
                 assets: "/assets/MarinheiroResult.svg",
@@ -91,7 +88,7 @@ export default function QuestionPage() {
                 botao: "Pegue sua bússola aqui",
                 url: "/assets/MARINHEIRO.png"
             });
-        } else if (pontuador > 30 && pontuador < 45) {
+        } else if (pontuador > 19 && pontuador < 49) {
             setObjCliente({
                 classificacao: "APRENDIZ DE MARINHEIRO",
                 assets: "/assets/aprendizResult.svg",
@@ -112,7 +109,7 @@ export default function QuestionPage() {
                 botao: "Quero conhecer minha próxima missão",
                 url: "/assets/Aprendiz.png"
             });
-        } else if (pontuador == 0 && pontuador < 30) {
+        } else if (pontuador < 19) {
             setObjCliente({
                 classificacao: "NÁUFRAGO",
                 assets: "/assets/Naufrago.svg",
@@ -134,42 +131,58 @@ export default function QuestionPage() {
                 url: "/assets/NÁUFRAGO.png"
             });
         }
-
+    }
+    const handleSetPontuador = async (pontuacao) => {
+        setPontuador((pontuadorAtual) => pontuador == 0 ? pontuadorAtual = pontuacao : pontuadorAtual + pontuacao);
+    }
+    const selecaoResposta = (pontuacao) => {
+        handleSetPontuador(pontuacao)
+        let posicaoF = posicao;
+        let somaPosicao = posicaoF + 1;
+        setPosicao(somaPosicao);
 
     };
+    useEffect(() => {
+        console.log(pontuador);
+        verifica(pontuador)
 
-    if (posicao >= questoes.length && objCliente) {
-
+    }, [pontuador]);
+    useEffect(() => {
+        if (posicao >= questoes.length && objCliente) {
+            setRedirectTo(true);
+        }
+    }, [posicao]);
+    if (redirectTo) {
         return <OutroComponente cliente={objCliente} />;
     }
-    else {
-        return (
 
-            <div className={styles.main_question}>
-                <div className={styles.page}>
-                    <div className={styles.organization}>
-                        <div className={styles.pergunta_div}>
-                            <h1 className={styles.pergunta}>{questoes[posicao]?.pergunta}</h1>
-                        </div>
-                        <p className={styles.describePontuation}>1 = Discordo completamente <br /> 5 = Concordo completamente</p>
-                        <div className={styles.caixaPosicao}>
-                            <p>{posicao + 1}/10</p>
-                        </div>
+    return (
+
+        <div className={styles.main_question}>
+            <div className={styles.page}>
+                <div className={styles.organization}>
+                    <div className={styles.pergunta_div}>
+                        <h1 className={styles.pergunta}>{questoes[posicao]?.pergunta}</h1>
+                    </div>
+                    <p className={styles.describePontuation}>1 = Discordo completamente <br /> 5 = Concordo completamente</p>
+                    <div className={styles.caixaPosicao}>
+                        <p>{posicao}/10</p>
                     </div>
                 </div>
-                <div className={styles.respostas_div}>
-                    {questoes[posicao]?.respostas.map((item) => (
-                        <button
-                            className={styles.resposta_div_squad}
-                            onClick={() => selecaoResposta(item.pontuacao)}
-                            key={item.id}
-                        >
-                            {item.resposta}
-                        </button>
-                    ))}
-                </div>
             </div>
-        );
-    }
+            <div className={styles.respostas_div}>
+                {questoes[posicao]?.respostas.map((item) => (
+                    <button
+                        className={styles.resposta_div_squad}
+                        onClick={() => selecaoResposta(item.pontuacao)}
+                        key={item.id}
+                    >
+                        {item.resposta}
+                    </button>
+                ))}
+            </div>
+        </div>
+    );
+
 
 }
