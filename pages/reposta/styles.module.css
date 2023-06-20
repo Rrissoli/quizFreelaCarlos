@@ -11,7 +11,10 @@
 }
 
 .boxPersonalizado {
- 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 1000px;
   padding-top: 30px;
   gap: 30px;
