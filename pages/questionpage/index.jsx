@@ -10,7 +10,6 @@ export default function QuestionPage() {
     const [questoes, setQuestoes] = useState([]);
     const [redirectTo, setRedirectTo] = useState(false)
     const [pontuador, setPontuador] = useState(0);
-
     const [posicao, setPosicao] = useState(0);
     const [objCliente, setObjCliente] = useState(null)
     useEffect(() => {
@@ -22,8 +21,6 @@ export default function QuestionPage() {
 
         fetchQuestoes();
     }, []);
-
-
     const verifica = async (pontuador) => {
         if (pontuador >= 90) {
             setObjCliente({

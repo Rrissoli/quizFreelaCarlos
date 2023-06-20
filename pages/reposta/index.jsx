@@ -5,7 +5,8 @@ import Image from 'next/image';
 
 export default function OutroComponente(cliente) {
     const [client, setClient] = useState({ ...cliente.cliente })
-    console.log(client.pontuacao)
+    
+
     return (
         <div className={styles.main_resposta}>
             <Image src={client.assets} width={200} height={300} />
@@ -27,7 +28,7 @@ export default function OutroComponente(cliente) {
                 <div className={styles.bol}>
                     <Image src="/assets/bandeira-pirata.svg" width={62} height={62} />
                 </div>
-                <h1 className={styles.titulo_vermelho}>SEUS DESAFIOS</h1>
+                <div className={styles.quadradinho}><h1 >SEUS DESAFIOS</h1></div>
                 {
                     client && client.desafios ? client.desafios.map(item => (<li key={item}>{item}</li>)) : ""
                 }
@@ -36,7 +37,7 @@ export default function OutroComponente(cliente) {
                 <div className={styles.bol}>
                     <Image src="/assets/bussola.svg" width={62} height={62} />
                 </div>
-                <h1 className={styles.titulo_vermelho}>SUAS OPORTUNIDADES</h1>
+                <div className={styles.quadradinho}><h1 >SUAS OPORTUNIDADES</h1></div>
                 {
                     client && client.oportunidades ? client.oportunidades.map(item => (<li key={item}>{item}</li>)) : ""
                 }
@@ -45,7 +46,7 @@ export default function OutroComponente(cliente) {
                 <div className={styles.bol}>
                     <Image src="/assets/barco.svg" width={62} height={62} />
                 </div>
-                <h1 className={styles.titulo_vermelho}>COMO NAVEGAR</h1>
+                <div className={styles.quadradinho}><h1 >COMO NAVEGAR</h1></div>
                 <p>{client.navegar}</p>
             </div>
 
