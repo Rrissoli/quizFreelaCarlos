@@ -29,18 +29,25 @@ export default function OutroComponente(cliente) {
                     <Image src="/assets/bandeira-pirata.svg" width={62} height={62} />
                 </div>
                 <div className={styles.quadradinho}><h1 >SEUS DESAFIOS</h1></div>
+                <div className={styles.quadradinho2}>
                 {
                     client && client.desafios ? client.desafios.map(item => (<li key={item}>{item}</li>)) : ""
                 }
+                </div>
             </div>
             <div className={styles.boxPersonalizado}>
                 <div className={styles.bol}>
                     <Image src="/assets/bussola.svg" width={62} height={62} />
                 </div>
                 <div className={styles.quadradinho}><h1 >SUAS OPORTUNIDADES</h1></div>
+                <div className={styles.quadradinho2}>
                 {
                     client && client.oportunidades ? client.oportunidades.map(item => (<li key={item}>{item}</li>)) : ""
                 }
+                </div>
+                
+               
+                
             </div>
             <div className={styles.boxPersonalizado}>
                 <div className={styles.bol}>

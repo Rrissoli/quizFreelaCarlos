@@ -9,7 +9,14 @@
   padding: 30px 40px;
   gap: 30px;
 }
-
+.quadradinho2{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  text-align: start;
+  width: 100%;
+}
 .boxPersonalizado {
   display: flex;
   flex-direction: column;
