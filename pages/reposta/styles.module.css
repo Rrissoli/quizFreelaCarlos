@@ -10,12 +10,8 @@
   gap: 30px;
 }
 .quadradinho2{
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  justify-content: center;
-  text-align: start;
-  width: 100%;
+  
+  width: 80%;
 }
 .boxPersonalizado {
   display: flex;
