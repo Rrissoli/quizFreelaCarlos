@@ -16,6 +16,9 @@ export default function Home() {
       <p className={styles.texto}>Está na hora de descobrir por que a sua empresa não está navegando como você gostaria.</p>
       <p className={styles.texto}>Este teste é para aqueles que querem alcançar muito mais! </p>
       <p className={styles.texto}>Ao final, veja quais os desafios, oportunidades e os seus próximos passos. Aproveite essa viagem, nos vemos do outro lado.</p>
+      <input type="text" placeholder='Insira Seu Nome' className={styles.localinput}/>
+      <input type="email" placeholder='Insira Seu Melhor E-mail' className={styles.localinput}/>
+      <input type="number" placeholder='Insira Seu Número De Whatsapp' className={styles.localinput}/>
       <div className={styles.box_buttons}>
         <button className={styles.button_iniciar} > <Link href="/questionpage"> Iniciar Teste </Link></button>
       </div>
