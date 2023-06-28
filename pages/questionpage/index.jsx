@@ -60,7 +60,7 @@ export default function QuestionPage() {
                     "Aumentar o faturamento e alcançar autonomia para o seu negócio",
                     "Atrair clientes que valorizam a sua empresa e pagam bem"
                 ],
-                navegar: "É hora de você se preparar para assumir o navio como comandante e navegar em águas mais profundas, descobrindo tesouros ainda maiores. Seu próximo passo é levantar a âncora e se preparar para desbravar o alto mar.",
+                navegar: "É hora de você se preparar para assumir o navio como comandante e navegar em águas mais profundas, descobrindo tesouros ainda maiores. Seu próximo passo é levantar a âncora e se preparar para desbravar o alto mar.Vamos desbravar juntos essa nova aventura!",
                 botao: "A bússola para chegar ao seu tesouro está aqui.",
                 url: "/assets/Navegador.png"
             });
@@ -70,7 +70,7 @@ export default function QuestionPage() {
                 assets: "/assets/MarinheiroResult.svg",
                 pontuacao: pontuador,
                 titulo: "Você é um ótimo marinheiro!",
-                texto1: "Você é um ótimo marinheiro! Sua pontuação mostrou que você tem boas habilidades para navegar pelo oceano do empreendedorismo. Você está atento às oportunidades e tem vontade de conquistar muito mais, parabéns pela sua garra! O lugar do comandante está esperando por você. Agora é hora de enfrentar desafios maiores, por isso é essencial reforçar seu negócio para que você conquiste sua liberdade financeira.",
+                texto1: "Sua pontuação mostrou que você tem boas habilidades para navegar pelo oceano do empreendedorismo. Você está atento às oportunidades e tem vontade de conquistar muito mais, parabéns pela sua garra! O lugar do comandante está esperando por você. Agora é hora de enfrentar desafios maiores, por isso é essencial reforçar seu negócio para que você conquiste sua liberdade financeira.",
                 desafios: [
                     "Falta de estratégia nas vendas para não depender do boca a boca",
                     "Seus clientes vivem pedindo desconto",
@@ -102,7 +102,7 @@ export default function QuestionPage() {
                     "Dar rumo e velocidade ao seu negócio para finalmente conquistar resultados financeiros",
                     "Mostrar que você é capaz para todos que não acreditam no seu potencial"
                 ],
-                navegar: "SOS! Esse é o seu último tanque de combustível e você está navegando em direção a um enorme iceberg. É preciso acelerar e desviar a rota para encontrar seus resultados. Você sabe que todo grande comandante começou como aprendiz, mas para se destacar é hora de jogar fora todo o excesso de peso que você carrega e descobrir qual é a sua rota certa. Você não estará sozinho, quero guiá-lo na sua próxima missão!",
+                navegar: "SOS! Esse é o seu último tanque de combustível e você está navegando em direção a um enorme iceberg. É preciso acelerar e desviar a rota para encontrar seus resultados. Você sabe que todo grande comandante começou como aprendiz, mas para se destacar é hora de jogar fora todo o excesso de peso que você carrega e descobrir qual é a sua rota certa. Você não estará sozinho, quero guiá-lo na sua próxima missão! É hora de sair do escuro do oceano e encontrar a luz do seu farol.",
                 botao: "Quero conhecer minha próxima missão",
                 url: "/assets/Aprendiz.png"
             });
@@ -123,7 +123,7 @@ export default function QuestionPage() {
                     "Vencer o medo do julgamento e sentir-se confiante para alcançar seus objetivos",
                     "Se juntar a muitos outros empreendedores que se identificam com as suas dores e que caminharão junto com você rumo ao baú do tesouro."
                 ],
-                navegar: "Preste atenção no quanto você já se desgastou tentando e errando até aqui, sem nenhuma orientação. Agora é a oportunidade certa para construir um negócio de verdade. Sei que pode dar um pouco de medo, por isso estou aqui e não vou soltar a sua mão. Você tem sonhos que ainda estão distantes e sei que você é capaz de conquistá-los, para isso será preciso muita dedicação, foco e vontade para aproveitar as oportunidades que surgirem.",
+                navegar: "É hora de sair do escuro do oceano e encontrar a luz do seu farol. Preste atenção no quanto você já se desgastou tentando e errando até aqui, sem nenhuma orientação. Agora é a oportunidade certa para construir um negócio de verdade. Sei que pode dar um pouco de medo, por isso estou aqui e não vou soltar a sua mão. Você tem sonhos que ainda estão distantes e sei que você é capaz de conquistá-los, para isso será preciso muita dedicação, foco e vontade para aproveitar as oportunidades que surgirem.",
                 botao: "Quero aproveitar essa oportunidade",
                 url: "/assets/NÁUFRAGO.png"
             });

@@ -16,7 +16,7 @@ export default function OutroComponente(cliente) {
             <div className={styles.boxPersonalizado}>
 
                 <p>
-                    {client.titulo}
+                    <strong>{client.titulo}</strong>
                     <br></br>
                     <br></br>
                     {client.texto1}
