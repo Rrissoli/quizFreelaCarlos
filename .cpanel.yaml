@@ -1,0 +1,4 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/schayane/quiz/public_html/
+    - /bin/cp -R public/assets $DEPLOYPATH
