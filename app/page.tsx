@@ -12,7 +12,7 @@ export default function Home() {
       <div className={styles.box}>
       <h1 className={styles.texto}><span className={styles.vermelho1}>Desafio do comandante</span></h1>
       <p  className={styles.texto}>@schayanezen</p>
-      <p className={styles.texto}>Qualquer pessoa pode começar um negócio, mas só os diferenciados chegarão ao topo! </p>
+      <p className={styles.texto}><strong>Qualquer pessoa pode começar um negócio, mas só os diferenciados chegarão ao topo!</strong> </p>
       <p className={styles.texto}>Está na hora de descobrir por que a sua empresa não está navegando como você gostaria.</p>
       <p className={styles.texto}>Este teste é para aqueles que querem alcançar muito mais! </p>
       <p className={styles.texto}>Ao final, veja quais os desafios, oportunidades e os seus próximos passos. Aproveite essa viagem, nos vemos do outro lado.</p>
