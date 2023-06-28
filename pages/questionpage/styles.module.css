@@ -110,6 +110,12 @@
 }
 
 /* Responsividade */
+@media (prefers-color-scheme: light) {
+  .resposta_div_squad {
+    
+    color: white;
+  }
+}
 @media (max-width: 1024px) {
   .page {
     height: 65vh;

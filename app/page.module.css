@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Poppins:wght@200;600&display=swap');
+@media (prefers-color-scheme: light) {
+  .main{
+    background-color: black;
+    color: white;
+  }
+}
 .main {
   display: flex;
   flex-direction: column;

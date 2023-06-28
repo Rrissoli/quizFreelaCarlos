@@ -13,6 +13,12 @@
   
   width: 80%;
 }
+@media (prefers-color-scheme: light) {
+  .boxPersonalizado {
+    
+    color: white;
+  }
+}
 .boxPersonalizado {
   display: flex;
   flex-direction: column;
