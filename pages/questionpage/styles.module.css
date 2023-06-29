@@ -177,5 +177,41 @@
   .respostas_div {
     gap: 10vw;
   }
+  @media (max-width: 414px) {
+    .describePontuation{
+      font-size: 14px;
+    }
+    .organization {
+      gap: 0px;
+      padding-top: 5px;
+    }
+    .page {
+      background-image: url("/assets/PAPIRO.png");
+      background-size: contain;
+      
+      height: 50vh;
+    }
+    .pergunta_div{
+      margin-bottom: 10px;
+      max-width: 70%;
+      max-height: 30%;
+    }
+    .pergunta {
+      
+      line-height: 5vw;
+      font-size: 14px;
+    }
+  
+    .resposta_div_squad {
+      padding: 5px;
+      width: 40px;
+      height: 20px;
+    }
+  
+    .respostas_div {
+      
+    }
+  }
+
 }
 
